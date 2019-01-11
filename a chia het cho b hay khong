@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var a;
+    var b;
+
+    var a = parseInt(prompt("nhap so thu nhat"));
+    var b = parseInt(prompt("nhap so thu hai"));
+
+    var c = a%b ==0;
+    document.write("c = " + c);
+</script>
+</body>
+</html>
